@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/iconos.png" type="image/x-icon">
+    <title>Josue Figueroa - Portafolio</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <script src="https://kit.fontawesome.com/602da30fba.js" crossorigin="anonymous"></script>
+
+    <!-- animaciones animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- animacion de aos animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header para escritorio -->
+    <header class="header-desktop">
+        <h2 class="subtitle_2">Portafolio</h2>
+        <ul>
+            <li>
+                <a class="black" href="#inicio" data-value="inicio">Inicio</a>
+            </li>
+            <li>
+                <a class="black" href="#acerca" data-value="acerca">Acerca de mi</a>
+            </li>
+            <li>
+                <a class="black" href="#experiencia" data-value="experiencia">Experiencia</a>
+            </li>
+            <li>
+                <a class="black" href="#proyectos" data-value="proyectos">Proyectos</a>
+            </li>
+            <li>
+                <a class="black" href="#contacto" data-value="contacto">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <div class="progreso" id="progreso">
+        <div></div>
+    </div>
+    <!-- navbar movil -->
+    <nav class="navbar-menu" id="navMenu">
+        <ul>
+            <li>
+                <a href="#inicio" data-value="inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="#acerca" data-value="acerca">Acerca de mi</a>
+            </li>
+            <li>
+                <a href="#experiencia" data-value="experiencia">Experiencia</a>
+            </li>
+            <li>
+                <a href="#proyectos" data-value="proyectos">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contacto" data-value="contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- boton de menu movil -->
+    <button class="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="background-dev" id="inicio" data-value="inicio">
+        <h1 class="title">Josué Figueroa</h1>
+        <h2 class="subtitle  animate__animated animate__flipInX">Software Developer JR</h2>
+        <br>
+        <a id="hacercaHome" class="btn btn-primary" href="#acerca">Acerca de mi</a>
+
+    </div>
+
+    <section data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200" class="about"
+        id="acerca" data-value="acerca">
+        <h2 class="subtitle">Acerca de mi</h2>
+        <div>
+            <p>
+                ¡Hola! Soy Josué, tengo 22 años y soy de Mérida, Yucatán, México.
+                Me gusta la programación y también aprender cosas nuevas sobre ella,
+                mi perfil académico es T.S.U. en desarrollo de software multiplataforma.
+                Y recién egresado como ingeniero en desarrollo y gestión de software.
+            </p>
+            <br>
+            <p>
+                Disfruto el desarrollo web y poder tener nuevas oportunidades para ejercer mis conocimientos, de igual
+                manera me gusta aprender de otras personas y trabajar en equipo.
+            </p>
+            <br>
+
+
+        </div>
+        <!-- <a href="" class="btn btn-about">Habilidades</a> -->
+    </section>
+    <section class="skills" id="experiencia" data-value="experiencia">
+        <h2 class="subtitle">
+            Experiencia
+
+        </h2>
+        <h3 class="subtitle_2 alternative">
+            Tecnologías
+        </h3>
+        <div class="section-cards">
+
+            <div data-aos="flip-left" class="section-columns">
+                <h3 class="subtitle_2 light">Frontend</h3>
+                <br>
+                <div class="parent-cards">
+                    <div class="card">
+                        <img src="./assets/img/html.png">
+                        <b>HTML 5</b>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/css.png">
+                        <b>CSS</b>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/js.png">
+                        <b>JavaScript</b>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/react.png">
+                        <b>ReactJS</b>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left" class="section-columns">
+                <h3 class="subtitle_2 light">Backend</h3>
+                <br>
+                <div class="parent-cards">
+
+                    <div class="card">
+                        <img src="./assets/img/node.png">
+                        <b>NodeJS</b>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/php.png">
+                        <b>PHP</b>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" class="section-columns">
+                <h3 class="subtitle_2 light">Bases de datos</h3>
+                <br>
+                <div class="parent-cards">
+
+                    <div class="card">
+                        <img src="./assets/img/sql.png">
+                        <b>SQL</b>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/nsql.png">
+                        <b>NO SQL</b>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <!-- <a class="btn btn-primary" href="">Proyectos</a> -->
+
+    </section>
+    <!-- seccion de proyectos -->
+    <section class="proyectos" id="proyectos" data-value="proyectos">
+        <h2 class="subtitle">Proyectos</h2><br>
+        <div class="container-proyectos">
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/biblioteca'">
+
+                <span>
+                    <b class="light">App de periódico</b>
+                    <p class="light" style="font-weight: 300;">Una App web elaborada con laravel sobre un periódico
+                        local.</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/periodicos.png" alt="">
+
+            </div>
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/notes-app'">
+
+                <span>
+                    <b class="light">App de tareas Express.js.</b>
+                    <p class="light" style="font-weight: 300;">App web sobre tareas, desarrollado con las tecnologías de
+                        MongoDB y Express.js</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/nodetareas.png" alt="">
+
+            </div>
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/appSorteos'">
+
+                <span>
+                    <b class="light">App sorteos</b>
+                    <p class="light" style="font-weight: 300;">Una aplicacion de sorteos con JS y Bootstrap</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/sorteos.png" alt="">
+
+            </div>
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/ApiAlumnos'">
+                <span>
+                    <b class="light">API Alumnos</b>
+                    <p class="light" style="font-weight: 300;">CRUD de una Api sobre alumnos, utilizando PostgreSQL y
+                        Express.js</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/apialumnos.png" alt="">
+            </div>
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/notesPHP'">
+                <span>
+                    <b class="light">App notas PHP</b>
+                    <p class="light" style="font-weight: 300;">CRUD sobre una pequeña aplicacion de notas,</p>
+                    <p class="light" style="font-weight: 300;">con creacion y validacion de usuario</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/crudphp.png" alt="">
+            </div>
+            <div class="cards-proyectos" onclick="window.location='https://github.com/josue1919/biblioteca'">
+
+                <span>
+                    <b class="light">App biblioteca</b>
+                    <p class="light" style="font-weight: 300;">App web para agregar, eliminar y editar libros a una base
+                        de datos.</p>
+                    <p class="light" style="font-weight: 300;">Desarrollado con Express.js y Mysql.</p>
+                    <b class="light">Click para ver</b>
+                </span>
+                <img src="./assets/img/tablalibros.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- secccion para contacto -->
+    <section class="contacto" id="contacto" data-value="contacto">
+        <h2 class="subtitle light">Contacto</h2>
+        <b class="light">Josué Figueroa</b>
+        <br>
+        <b class="light"><i class="fa-solid fa-location-dot"></i> Mérida, Yucatán, México.</b>
+
+        <div class="redes">
+            <h2 class="icons-redes"><a href="https://www.linkedin.com/in/josuefig/" class="light"><i class="fa-brands fa-linkedin"></i></a></h2>
+            <h2 class="icons-redes"><a href="https://github.com/josue1919" class="light"><i class="fa-brands fa-github-square"></i></a></h2>
+        </div>
+
+        <b class="light" id="copy">Copyright © Desarrollado por Josué Figueroa <span>2022</span></b>
+        <div class="light" id="copyMobile"><b>Copyright © Desarrollado por:</b> <b>Josué Figueroa</b> </div>
+    </section>
+
+    <!-- script de aos animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
