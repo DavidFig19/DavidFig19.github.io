@@ -137,6 +137,45 @@ body{
     }
 }
 
+.section-technologies{
+    margin-top: rem(80);
+    .body{
+
+        row-gap: rem(30);
+        
+        .item{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover{
+                
+                .box-icon{
+                    background-color: rgba($primary, 50%);
+                }
+            }
+        }
+
+        .box-icon{
+            background-color: $primary;
+            width: rem(100);
+            height: rem(100);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: rem(20);
+
+            
+        }
+
+        .icon{
+            color:#fff;
+        }
+    }
+}
 
 .doc-footer{
     background-color: #F7F7F7;
@@ -177,7 +216,11 @@ body{
     }
 
     .section-experience{
-        margin-top: rem(100);
+        margin-top: rem(150);
+    }
+
+    .section-technologies{
+        margin-top: rem(200);
     }
 
     .section-projects{
