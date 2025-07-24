@@ -1,0 +1,1 @@
+class MainApp{constructor(){}load(){document.addEventListener("DOMContentLoaded",()=>{this.init()})}init(){const n=(new Date).getFullYear();document.getElementById("year-footer").textContent=n}}window.hozen=window.hozen||{},window.hozen.app=window.hozen.app||{},window.hozen.app.MainApp=new MainApp,window.hozen.app.MainApp.load();

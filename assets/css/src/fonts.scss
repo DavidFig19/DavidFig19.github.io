@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/Rubik-Light.woff') format('woff'),
+        url('../fonts/Rubik/Rubik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/Rubik-Regular.woff') format('woff'),
+        url('../../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/Rubik-Medium.woff') format('woff'),
+        url('../../fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/Rubik-Bold.woff') format('woff'),
+        url('../../fonts/Rubik/Rubik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter */
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../../fonts/Inter/Inter28pt-Regular.woff') format('woff'),
+        url('../../fonts/Inter/Inter28pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../../fonts/Inter/Inter28pt-Medium.woff') format('woff'),
+        url('../../fonts/Inter/Inter28pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../../fonts/Inter/Inter28pt-Bold.woff') format('woff'),
+        url('../../fonts/Inter/Inter28pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

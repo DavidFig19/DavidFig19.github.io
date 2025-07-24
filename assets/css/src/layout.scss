@@ -1,0 +1,188 @@
+@import 'utility/functions';
+@import 'utility/variables';
+@import 'utility/mixins';
+
+
+//https://codepen.io/t_afif/pen/MWoajZE
+@keyframes typing{
+  90%,100% {width:100%}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $warning }
+}
+
+body{
+    font-weight: 400;
+    background-color:$color-bg;
+    color: $color-text;
+}
+
+
+.font-inter{
+    font-family: 'Inter 28pt';
+}
+
+.font-rubik{
+    font-family: 'Rubik';
+}
+
+//font size
+.title{
+    font-size: rem(28);
+}
+
+.subtitle{
+    font-size: rem(24);
+}
+
+.h3{
+    font-size: rem(20);
+}
+
+.base{
+    font-size: rem(16);
+}
+
+.small{
+    font-size: rem(14);
+}
+
+.section-info{
+
+
+    &__typewriter{
+        display: inline-flex;
+        &::after{
+            content: "";
+            height: 100%;
+            border-right: .15em solid $warning;
+            animation: 
+            blink-caret .5s step-end infinite;
+        }
+    }
+    &__title{
+        font-size: rem(28);
+ 
+        //animacion
+        word-break: break-all;
+        height: 1em;
+        line-height: 1;
+        width:0%;
+        overflow: hidden;
+        animation:typing 3.5s linear infinite alternate;
+
+        &::before{
+            content:" ";
+            display:inline-block;
+        }
+
+    }
+
+    &__description{
+        font-size: rem(16);
+        max-width: 650px;
+    }
+
+    &__contact{
+        gap: rem(15) rem(20);
+    }
+}
+
+
+.section-experience{
+    margin-top: rem(50);
+}
+
+.section-projects{
+    margin-top: rem(80);
+
+    .body{
+        row-gap: rem(40)
+    }
+}
+
+
+.card-project{
+
+    @include aspect;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    border-radius: rem(20);
+   
+    &__description{
+        position: absolute;
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(#000, 50%);
+       
+        transition: all 300ms ease-in-out;
+    }
+
+    &__title{
+        text-shadow:2px 0px rgba(#000, 90%);
+    }
+
+    &:hover{
+
+        transform: scale(0.9);
+        .card-project__description{
+            background-color: rgba($primary, 50%);
+            
+        }
+
+    }
+}
+
+
+.doc-footer{
+    background-color: #F7F7F7;
+    border-top: 2px solid $secondary;
+}
+/*Pantallas grandes */
+@media (min-width:992px){
+    //font size
+    .title{
+        font-size: rem(40);
+    }
+
+    .subtitle{
+        font-size: rem(32);
+    }
+
+    .h3{
+        font-size: rem(24);
+    }
+
+    .base{
+        font-size: rem(18);
+    }
+
+    .small{
+        font-size: rem(16);
+    }
+
+    .section-info{
+
+        &__title{
+            font-size: rem(40);
+        }
+
+        &__description{
+            font-size: rem(18);
+        }
+    }
+
+    .section-experience{
+        margin-top: rem(100);
+    }
+
+    .section-projects{
+        margin-top: rem(150);
+    }
+
+
+}
