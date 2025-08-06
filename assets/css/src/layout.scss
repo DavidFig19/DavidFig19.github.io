@@ -19,6 +19,15 @@ body{
     color: $color-text;
 }
 
+#menu-drop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: rem(20);
+    margin-right: rem(20);
+    z-index: 999;
+}
+
 
 .font-inter{
     font-family: 'Inter 28pt';

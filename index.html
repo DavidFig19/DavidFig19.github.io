@@ -24,14 +24,28 @@
 
 
     <!-- js -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/build/main.js"></script>
     
 
 </head>
 <body>
     
-    <main class="doc-main container-lg py-5">
+    <main class="doc-main container-lg py-5 position-relative">
+
+        <!-- boton navegacion -->
+        <section class="dropstart" id="menu-drop">
+            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#about">Sobre mí</a></li>
+                <li><a class="dropdown-item" href="#experience">Experiencia</a></li>
+                <li><a class="dropdown-item" href="#technologies">Tecnologias</a></li>
+                <li><a class="dropdown-item" href="#projects">Proyectos</a></li>
+            </ul>
+        </section>
 
         <section class="section-info py-5" id="about">
             <div class="row">
@@ -70,7 +84,7 @@
             </div>
         </section>
 
-        <section class="section-experience">
+        <section class="section-experience" id="experience">
 
             <div class="row head mb-4">
                 <div class="col-12">
@@ -137,7 +151,7 @@
             </div>
         </section>
 
-        <section class="section-technologies">
+        <section class="section-technologies" id="technologies">
             <div class="row head mb-5">
                 <div class="col-12">
                     <h2 class="h2 titl-section fw-bold font-rubik">Tecnologías</h2>
@@ -200,7 +214,7 @@
             </div>
         </section>
 
-        <div class="section-projects">
+        <div class="section-projects" id="projects">
             <div class="row head mb-4">
                 <h2 class="subtitle title-section font-rubik fw-bold">
                     <i class="fas fa-folder-open"></i>
