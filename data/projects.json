@@ -1,0 +1,27 @@
+[
+    {
+        "name" : "Expertum consultores",
+        "url" : "https://expertumconsultores.com.mx/",
+        "img" : "expertum.webp"
+    },
+    {
+        "name" : "Productos DUAR",
+        "url" : "https://pinturasyaditivosduar.com/",
+        "img" : "duar.webp"
+    },
+    {
+        "name" : "BUST",
+        "url" : "https://bust.mx/",
+        "img" : "bust.webp"
+    },
+    {
+        "name" : "Shinnecock pools",
+        "url" : "https://shinnecockpools.com/about",
+        "img" : "shinnecock.webp"
+    },
+    {
+        "name" : "Uno Consulting",
+        "url" : "https://unoconsulting.mx/",
+        "img" : "uno-consulting.webp"
+    }
+]
